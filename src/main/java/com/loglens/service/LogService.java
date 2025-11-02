@@ -14,7 +14,7 @@ public class LogService {
     @Autowired
     private EmailService emailService;
 
-    private static final String ALERT_EMAIL = "aaravkrrr@gmail.com";
+    private static final String ALERT_EMAIL = "aar**********@gmail.com";
 
     public LogSummary analyze(List<String> logs) {
         List<LogEntry> entries = new ArrayList<>();
