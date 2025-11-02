@@ -38,17 +38,5 @@ public class EmailService {
         }
     }
 
-//    // Keep your simple one too if needed
-//    public void sendErrorAlert(String to, String subject, String body) {
-//        try {
-//            SimpleMailMessage message = new SimpleMailMessage();
-//            message.setTo(to);
-//            message.setSubject(subject);
-//            message.setText(body);
-//            mailSender.send(message);
-//            System.out.println("Error alert email sent to " + to);
-//        } catch (Exception e) {
-//            System.err.println("Failed to send email: " + e.getMessage());
-//        }
-//    }
+
 }
